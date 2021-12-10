@@ -138,7 +138,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
-  // FIX - on this line we need to add colorTwo = 'purple'
+  // FIX - on this line we need to add "colorTwo = 'purple';"
 }
 */
 
@@ -148,9 +148,9 @@ if (mix === true) {
 
 /*
 let temp = 40;
-const time = 4;
+const time = 4; // FIX - this should be a variable, so "let time = 4;"
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 || time >= 4) { // FIX - instead of ||, && needs to be used.
   console.log('throw away the food!');
 }
 */
@@ -163,7 +163,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
+if(minAge <= age) {  // FIX - should be (minAge > age) - otherwise 21 year olds would not be admitted.
   console.log('no entry');
 } else {
   console.log('enter');
