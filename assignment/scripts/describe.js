@@ -73,8 +73,8 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 //declare a variable named 'isStudent' and set to true.
 //declare a variable named 'age' and set value as 34
-//declate a variable named 'zip' and set value as 55407
-//Check if 'zip' is over 80000, which it is not. Checks if NOT a student OR under 30 years old, which both are false.
+//declare a variable named 'zip' and set value as 55407
+//Check if student is true AND zip is over 80000, the latter is false. Checks if NOT a student OR under 30 years old, which both are false.
 //checks if student is true and because of this, we console log "Welcome to Prime!"
 
 //CODE
